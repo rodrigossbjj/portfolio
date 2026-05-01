@@ -1,124 +1,256 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rodrigo Sales | Desenvolvedor Back-End .NET</title>
+  <title>Rodrigo Sales | Full-Stack .NET & Mobile Developer</title>
+  <meta name="description"
+    content="Portfólio de Rodrigo Sales, desenvolvedor especializado em .NET, Flutter e arquitetura de sistemas robustos.">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
+
+  <header id="header">
     <nav>
-      <h1>Rodrigo Sales</h1>
-      <ul>
+      <div class="logo">RODRIGO.SALES</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#habilidades">Skills</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="inicio" class="hero">
-    <div class="intro">
-      <h2>Desenvolvedor Back-End .NET</h2>
-      <p>Crio aplicações robustas, integradas e focadas em performance usando C#, ASP.NET e SQL.</p>
-    </div>
-  </section>
-
-  <section id="sobre" class="sobre">
-    <h2>Sobre mim</h2>
-    <p>
-      Sou desenvolvedor back-end especializado em .NET, com experiência em C#, 
-      VB.NET, ASP.NET Core MVC, Python, Java Spring Boot, NodeJS, FlutterFlow e VB6.
-      Tenho foco em criar sistemas estáveis, organizados e bem estruturados, com integração de bancos de dados.
-      Possuo conhecimento breve em Docker para deploys.
-    </p>
-  </section>
-
-  <section id="habilidades" class="habilidades">
-    <h2>Habilidades Técnicas</h2>
-    <div class="grid">
-      <div>
-        <h3>Linguagens</h3>
-        <p>Java, C#, VB.NET, Python, SQL</p>
+  <main>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-content animate">
+        <span class="hero-tag">Disponível para novos desafios</span>
+        <h1>Construindo Sistemas <br> <span style="color: var(--primary)">Escaláveis & Robustos</span></h1>
+        <p>Desenvolvedor Back-End especializado em ecossistema .NET e apaixonado por criar experiências mobile de alta
+          performance com Flutter.</p>
+        <div class="cta-buttons">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+        </div>
       </div>
-      <div>
-        <h3>Frameworks</h3>
-        <p>.NET Framework, .NET Core, ASP.NET MVC, Entity Framework, Spring Boot</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre">
+      <div class="section-title">
+        <h2>Sobre Mim</h2>
+        <div class="underline"></div>
       </div>
-      <div>
-        <h3>Bancos de Dados</h3>
-        <p>SQL Server, PostgreSQL, MySQL</p>
+      <div class="about-grid">
+        <div class="about-text animate">
+          <p>Olá! Sou <span class="highlight">Rodrigo Sousa Sales</span>, um desenvolvedor de 20 anos natural do Ceará,
+            focado em transformar problemas complexos em soluções digitais elegantes e eficientes.</p>
+          <p>Atualmente curso <span class="highlight">Ciência da Computação no IFCE</span> e possuo formação técnica em
+            Informática. Minha jornada é movida pela curiosidade constante e pela busca por excelência técnica, seja no
+            back-end com C# ou no front-end mobile.</p>
+          <p>Quando não estou codando, você provavelmente me encontrará no tatame praticando <span
+              class="highlight">Brazilian Jiu-Jitsu</span>, onde aprendo diariamente sobre disciplina, resiliência e
+            estratégia — valores que levo diretamente para a engenharia de software.</p>
+        </div>
+        <div class="about-stats animate">
+          <div class="glass" style="padding: 30px;">
+            <h3 style="margin-bottom: 20px;">Foco Atual</h3>
+            <ul style="color: var(--text-muted); display: flex; flex-direction: column; gap: 15px;">
+              <li>Arquiteturas Clean e DDD</li>
+              <li>Apps Offline-First com Flutter</li>
+              <li>Cloud Computing & Docker</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>Ferramentas</h3>
-        <p>Visual Studio, Crystal Reports, Git, Supabase, Jasper Soft</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades">
+      <div class="section-title">
+        <h2>Habilidades Técnicas</h2>
+        <div class="underline"></div>
       </div>
-    </div>
-  </section>
+      <div class="skills-grid">
+        <div class="skill-card glass animate">
+          <h3>Back-End</h3>
+          <div class="skill-list">
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">.NET Core</span>
+            <span class="skill-tag">ASP.NET MVC</span>
+            <span class="skill-tag">Java Spring Boot</span>
+            <span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-card glass animate">
+          <h3>Mobile & Front</h3>
+          <div class="skill-list">
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Dart</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-card glass animate">
+          <h3>Infra & Banco</h3>
+          <div class="skill-list">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Prisma</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="projetos" class="projetos">
-    <h2>Projetos Recentes</h2>
+    <!-- Projects Section -->
+    <section id="projetos">
+      <div class="section-title">
+        <h2>Projetos em Destaque</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1: ShrimpAI -->
+        <!-- Project 1: Technical Challenge -->
+        <article class="project-card glass animate">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Back-end</span>
+              <span class="tag">Node.js</span>
+            </div>
+            <h3>Technical Challenge API</h3>
+            <p>API RESTful com processamento de arquivos CSV/PDF, autenticação JWT e integração com Mock IA para busca
+              textual avançada.</p>
+            <div class="skill-list" style="margin-bottom: 20px;">
+              <span class="skill-tag">Prisma</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Node.js</span>
+            </div>
+            <a href="https://github.com/rodrigossbjj/desafio-tecnico-backend" class="project-link">Ver Código
+              <span>→</span></a>
+          </div>
+        </article>
 
-    <div class="projeto">
-      <h3>API para controle financeito</h3>
-      <p>API em Python para gerenciar entradas e saídas mensais, gerar relatórios e acompanhar saldo por categoria.</p>
-      <a href="https://github.com/rodrigossbjj/finance-control-api" class="btn">Ver no GitHub</a>
-    </div>
+        <!-- Project 2: Real-time Chat -->
+        <article class="project-card glass animate">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Back-end</span>
+              <span class="tag">Real-time</span>
+            </div>
+            <h3>Real-time SignalR Chat</h3>
+            <p>Plataforma de comunicação instantânea com autenticação JWT e escalabilidade via SignalR Hubs.</p>
+            <div class="skill-list" style="margin-bottom: 20px;">
+              <span class="skill-tag">.NET 8</span>
+              <span class="skill-tag">SignalR</span>
+              <span class="skill-tag">JWT</span>
+            </div>
+            <a href="https://github.com/rodrigossbjj/chat-realtime-backend" class="project-link">Ver Código
+              <span>→</span></a>
+          </div>
+        </article>
 
-    <div class="projeto">
-      <h3>Sistema de Relatórios Dinâmicos</h3>
-      <p>Aplicação de geração de relatórios personalizados em Java Spring Boot.</p>
-      <a href="https://github.com/rodrigossbjj/relatorio-jasper-api" class="btn">Ver no GitHub</a>
-    </div>
+        <!-- Project 3: CuidaPet -->
+        <article class="project-card glass animate">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Full-stack</span>
+            </div>
+            <h3>CuidaPet</h3>
+            <p>Sistema de gestão veterinária com controle de acesso granular, persistência em PostgreSQL e relatórios
+              dinâmicos.</p>
+            <div class="skill-list" style="margin-bottom: 20px;">
+              <span class="skill-tag">ASP.NET MVC</span>
+              <span class="skill-tag">EF Core</span>
+            </div>
+            <a href="https://github.com/rodrigossbjj/ControlePet" class="project-link">Ver Código <span>→</span></a>
+          </div>
+        </article>
 
-    <div class="projeto">
-      <h3>CuidaPet - Sistema de controle para veterinários.</h3>
-      <p>Sistema web de autenticação com Entity Framework Core, PostgreSQL e controle de acesso baseado em cookies.</p>
-      <a href="https://github.com/rodrigossbjj/ControlePet" class="btn">Ver no GitHub</a>
-    </div>
+        <!-- Project 4: RP2040 Memory Game -->
+        <article class="project-card glass animate">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Embedded</span>
+            </div>
+            <h3>Genius RP2040</h3>
+            <p>Jogo da memória desenvolvido em C para Raspberry Pi Pico W, explorando manipulação de GPIOs e lógica de
+              baixo nível.</p>
+            <div class="skill-list" style="margin-bottom: 20px;">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Raspberry Pi</span>
+            </div>
+            <a href="https://github.com/rodrigossbjj/jogo-da-memoria-RP2040" class="project-link">Ver Código
+              <span>→</span></a>
+          </div>
+        </article>
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="https://github.com/rodrigossbjj" class="btn btn-secondary">Ver Mais no GitHub</a>
+      </div>
+    </section>
 
-  <div class="projeto">
-      <h3>Comunicação em tempo real com SignalR.</h3>
-      <p>Aplicação desenvolvida em .NET que utiliza SignalR para habilitar mensagens instantâneas entre usuários com autenticação via JWT. O sistema garante conexões seguras,
-         escaláveis e suporta múltiplos clientes simultaneamente, servindo como base para chats, notificações e integrações em tempo real.</p>
-      <a href="https://github.com/rodrigossbjj/chat-realtime-backend" class="btn">Ver no GitHub</a>
-    </div>
-
-    <div class="projeto">
-      <h3>Jogo da memória com LEDS.</h3>
-      <p>Jogo da memória implementado em C para uma Raspberry Pi Pico W, onde o jogador deve repetir sequências de LEDs geradas aleatoriamente. 
-        Com dificuldade progressiva e feedback sonoro, o jogo estimula a memória e a atenção do usuário. 
-        Ideal para aprendizado de lógica, manipulação de GPIOs e interação com componentes físicos como LEDs, botões e buzzer.</p>
-      <a href="https://github.com/rodrigossbjj/jogo-da-memoria-RP2040" class="btn">Ver no GitHub</a>
-    </div>
-
-  <div class="projeto">
-      <h3>App de Controle de Finanças em FlutterFlow.</h3>
-      <p>App de Controle de Finanças feito em FlutterFlow. Permite login/cadastro, registro de entradas e saídas e exibe resumo de saldo, entradas e saídas totais.</p>
-      <a href="https://github.com/rodrigossbjj/controle-financeiro-flutterflow" class="btn">Ver no GitHub</a>
-    </div>
-
-  <div class="projeto">
-      <h3>Desafio Técnico.</h3>
-      <p>API RESTful em Node.js com Express, PostgreSQL, Prisma e JWT. Suporta upload e processamento de arquivos .csv e .pdf, com endpoints para autenticação, consulta e busca textual usando Mock IA.</p>
-      <a href="https://github.com/rodrigossbjj/desafio-tecnico-backend" class="btn">Ver no GitHub</a>
-    </div>
-  </section>
-
-  <section id="contato" class="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato para colaborações ou oportunidades:</p>
-    <ul>
-      <li><strong>E-mail:</strong> rodrigosousasales9@gmail.com</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/rodrigossbjj" target="_blank">github.com/rodrigossbjj</a></li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rodrigo-sousa-821875348/" target="_blank">linkedin.com/in/rodrigo-sousa-821875348</a></li>
-    </ul>
-  </section>
+    <!-- Contact Section -->
+    <section id="contato">
+      <div class="section-title">
+        <h2>Vamos Conversar?</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-container animate">
+        <p>Estou sempre aberto a discutir novas tecnologias, projetos open-source ou oportunidades de carreira.</p>
+        <div class="contact-links">
+          <a href="mailto:rodrigosousasales9@gmail.com" class="contact-item glass">
+            <span>📧</span> Email
+          </a>
+          <a href="https://www.linkedin.com/in/rodrigo-sousa-821875348?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank" class="contact-item glass">
+            <span>🔗</span> LinkedIn
+          </a>
+          <a href="https://github.com/rodrigossbjj" target="_blank" class="contact-item glass">
+            <span>💻</span> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Rodrigo Sales — Desenvolvedor Back-End</p>
+    <p>&copy; 2025 Rodrigo Sales. Desenvolvido com paixão e foco em performance.</p>
   </footer>
+
+  <script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Simple Fade-in Observer
+    const observerOptions = {
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+  </script>
 </body>
+
 </html>
